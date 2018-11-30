@@ -1,5 +1,13 @@
-p {
-  color: pink;
-  font: helvetica;
-  font-size: 100px;
+.jumbotron {
+  padding-top: 90px;
+  min-height: 00px;
+  margin-bottom: 0;
+  background-image: url('images/header.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-image: url('images/header.png');
+  color: black; 
 }

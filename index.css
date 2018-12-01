@@ -7,7 +7,15 @@
   background-attachment: fixed;
 }
 
-.navbar {
+.navbar-default {
   background-image: url('images/header.png');
-  color: black; 
+  opacity: .5;
+}
+
+.navbar-inverse {
+  background-color: red;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.5);
 }

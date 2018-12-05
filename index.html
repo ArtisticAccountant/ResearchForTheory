@@ -3,10 +3,17 @@
 https://miketricking.github.io/bootstrap-image-hover/
 https://www.w3schools.com/howto/howto_css_modal_images.asp
 https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
+http://ashleydw.github.io/lightbox/
+https://www.w3schools.com/howto/howto_js_lightbox.asp
+
+THIS ONE WORKS (WITH GLITCHES) https://bootsnipp.com/snippets/featured/list-grid-view-example-on-button-click-using-bootstrap-4
+https://bootsnipp.com/snippets/O5Oqj
+https://stackoverflow.com/questions/49542923/how-to-create-a-card-gallery-in-bootstrap-4 - this is ok actually but glitchy
+
+
 
 https://fonts.google.com
 CSS is not loading properly through github
-border - https://css-tricks.com/body-border/
 rotate - https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rotate-continuously>
 
 <!DOCTYPE html> <!Always add this in so knows what to expect>
@@ -24,18 +31,14 @@ rotate - https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rota
 
 <body>
 
-  <div class='jumbotron'>
-  <div class="container">
-  <div class="row">
-      <div class='col-sm-8'>
-<h1>Systems of art</h1>
-</div>
-<!-- <div class='col-sm-4'>
-  <img src='images/sandwich.png' class='img-responsive'>
-</div> -->
-</div>
-</div>
-</div>
+  <header class="jumbotron jumbotron-fluid">
+    <article class="container">
+      <div class="row">
+          <div class='col-sm-8'>
+      <h1 class="display-4 text-primary text-xs-center p-b-1 m-b-1">Systems of art</h1>
+      <p class="lead">A website setting out research into working with computers to produce art</p>
+    </article>
+  </header>
 
 <nav class="navbar navbar-default" role="navigation">
 <div class="container">
@@ -47,21 +50,173 @@ rotate - https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rota
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-  <a class="navbar-brand" href="#">Research</a>
+  <a class="navbar-brand" href="active">Research</a>
 </div>
 
 <div class="collapse navbar-collapse">
 <ul class="nav navbar-nav navbar-right">
-  <li><a href="active">About</a></li>
-  <li><a href="RobotArt.html">Robot art</a></li>
-  <li><a href="1960s.html">Robot art</a></li>
+    <li><a href="ImitationOfLife.html">Imitation of Life</a></li>
+  <li><a href="DrawCommand.html">Draw Command</a></li>
+    <li><a href="PhysicalSystem.html">Physical System</a></li>
   </ul>
   </div>
 </nav>
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="card mb-4 mx-3 col-lg-3 text-center">
+        <a href="[some url]"><img class="card-img-top" src="[some image]" alt="[some title]"></a>
+        <div class="card-body">
+            <h2 class="card-title"><span class="fa fa-[some FontAwesome icon]"></span> <a href="[some url]">[some title]</a></h2>
+        </div>
+    </div>
+
+    <div class="card mb-4 mx-3 col-lg-3 text-center">
+      <a href="#url"><img class="card-img-top" src="http://placehold.it/250x250" alt="[some title]"></a>
+      <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-[some FontAwesome icon]"></span> <a href="[some url]">[some title]</a></h2>
+      </div>
+  </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3 mb-4">
+      <div class="card mx-auto text-center">
+        <a href="#url"><img class="card-img-top" src="http://placehold.it/350x350" alt="Sample Title"></a>
+        <div class="card-body">
+          <h2 class="card-title"><span class="fa fa-external-link mr-1"></span><a href="#url">Sample Title</a></h2>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-
-<!First row>
+<!-- <!First row>
 <div class="container-fluid">
 <div class="row">
 
@@ -76,11 +231,9 @@ rotate - https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rota
 
 <div class='col-sm-2'>
   <img src='images/person.jpg' class="center-block">
-<!-- <img src='images/person.jpg' class="img-circle  center-block"> -->
-</div>
+<!-- <img src='images/person.jpg' class="img-circle  center-block">
+<!-- </div> -->
 
-</div>
-</div>
 
 <!Second row>
 <div class="container-fluid">
@@ -121,6 +274,8 @@ rotate - https://stackoverflow.com/questions/10123700/how-to-make-a-picture-rota
 </div>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+
+
 
 </body>
 

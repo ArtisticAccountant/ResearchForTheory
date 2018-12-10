@@ -14,10 +14,9 @@ color: rgb(130,130,150);
   background: none;
 }
 
-/* p{
-  background: rgba(255,255,255,0.5);
-  color: black;
-} */
+p{
+  font: black;
+}
 
 html,
 body {

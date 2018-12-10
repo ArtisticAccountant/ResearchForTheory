@@ -1,52 +1,34 @@
-.jumbotron-fluid-other {
-  background: none;
-}
-
-.jumbotron-fluid-physical {
-  padding-top: 90px;
-  min-height: 00px;
-  margin-bottom: 0;
-  background: none;
-  background-image: url('images/Screen Shot 2018-04-17 at 14.58.31.png');
-  /* background-attachment: fixed; */
-  background-position: right top;
-  /* background-color: rgb(250, 250, 250); */
-  background-repeat: no-repeat;
-  background-size: 60%;
-}
-
-.jumbotron-fluid-about{
-  background: none;
-}
-
-/* p {
-  background-color: rgba(250,250,250,0.5);
-} */
-
 .jumbotron-fluid {
   padding-top: 90px;
   min-height: 00px;
   margin-bottom: 0;
-  /* background: none; */
-  background-image: url('images/Screen Shot 2018-05-21 at 17.05.28.png');
-  /* background-attachment: fixed; */
+  background: none;
+  /* background-image: url('images/Screen Shot 2018-04-17 at 13.34.05.png');
+  background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-height: 50%;
+height: 50%; */
 background-size: cover;
+color: rgb(240,240,240);
 }
 
-#differentBackground.jumbotron-fluid {
-  background: none;
+p {
+color: rgb(130,130,150);
+  /* filter: blur(5px); */
 }
+/* #differentBackground.jumbotron-fluid {
+  background: none;
+} */
 
 .navbar-default {
   background: none;
 }
 
+/* p{
+  background: rgba(255,255,255,0.5);
+  color: black;
+} */
 
-
-//------------------------------------------------------------//
 html,
 body {
 	font-size: 14px !important;
@@ -70,7 +52,17 @@ h6 {
 	font-size: 0.79em;
 }
 
-
+// Medium devices (tablets, 48em and up)
+//
+// At this point you have overridden Bootstraps rem's and are
+// into module based font sizes should you require it.
+//
+// I took a while over this change because I felt that there
+// is no reason why I cant use a modified scale on another
+// device size. So I did, the headings have now taken on
+// "Perfect Fourth" and the dislpay-* has been put to the
+// Bootstrap defaults.
+//
 //------------------------------------------------------------//
 @media (min-width: 48em) {
 	h1 {

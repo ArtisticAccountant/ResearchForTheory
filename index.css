@@ -2,23 +2,6 @@
   background: none;
 }
 
-.jumbotron-fluid-physical {
-  padding-top: 90px;
-  min-height: 00px;
-  margin-bottom: 0;
-  background: none;
-  background-image: url('images/Screen Shot 2018-04-17 at 14.58.31.png');
-  /* background-attachment: fixed; */
-  background-position: right top;
-  /* background-color: rgb(250, 250, 250); */
-  background-repeat: no-repeat;
-  background-size: 60%;
-}
-
-.jumbotron-fluid-about{
-  background: none;
-}
-
 /* p {
   background-color: rgba(250,250,250,0.5);
 } */

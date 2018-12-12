@@ -11,8 +11,9 @@
   background-size: 60%;
 }
 
-.navbar-default {
+.navbar a {
   background: none;
+  color: #666 !important;
 }
 
 p{

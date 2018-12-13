@@ -18,11 +18,24 @@ background-color: rgba(250,250,250,0.5);
   background-size: cover;
 }
 
+#fontcolor{
+  color: #404040;
+}
+
+#fontiol {
+  color: #666;
+
+  text-shadow:
+  0.07em 0 black,
+  0 0.07em black,
+  -0.07em 0 black,
+  0 -0.07em 0 black;
+}
+
 .navbar a {
   background: none;
   color: #666 !important;
 }
-
 
 //------------------------------------------------------------//
 html,

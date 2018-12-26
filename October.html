@@ -1,0 +1,430 @@
+<!
+>
+
+<!DOCTYPE html> <!Always add this in so knows what to expect>
+<html>
+<head>
+  <title>Laura's Amazing Blog</title> <!Website tab name>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="index.css">
+
+  <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    body{
+      /* background-image: url('images/Screen Shot 2018-05-21 at 17.02.41.png'); */
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="jumbotron jumbotron-fluid-other">
+    <article class="container">
+      <div class="row">
+        <div class='col-sm-8'>
+          <h1 class="display-4 text-primary text-xs-center p-b-1 m-b-1">Blog</h1>
+          <p class="lead">The temporary location of my blog until 14 January when it will be
+            moved to www.theartisticaccountant.com</p>
+        </article>
+      </header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Return to Research and Projects tabs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item-active">
+          <a class="nav-link" href="October.html">October<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="November.html">November</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="December.html">December</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="January.html">January</a>
+        </li>
+
+      </ul>
+      </div>
+    </nav>
+
+        <section class="container">
+          <div class="row" id="fontcolor">
+            <div class="col-xl-12">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h4>DRAFT 10.10.18 Reflection on DrawBots and possible future directions</h4>
+                      <p>
+                        I considered my DrawBots having had a few weeks break from them to prepare for
+                        presentations on our work, possible future directions, and a question that we
+                        have for our first seminar of the year. I began with the DrawBots on the floor
+                        of my studio surrounded by the paint drops from other works I have made
+                        which is where they belong to me - integrated into the things I love.</p>
+
+                        <p>Even though the circuits of the DrawBots are not something I have ever previously
+                        considered as being handmade or requiring some dexterity and skill, making these fairly
+                        complex and compact circuits taught me that technology and maybe especially art
+                        technology is not necessarily machine-made even if it looks like it or engages with a
+                        presentation that it is “futuristic”. It requires as much coordination and experience
+                        to solder a circuit as draw a room in perspective.</p>
+
+                        <p>It also was useful to reflect on the fact that people engaged with my work and
+                        automatically humanised the robots frequently. I had people more than once call
+                        them synonyms of cute and a couple even likened them to being my (robo)babies.
+                        I even have my personal name for these robots - RoboBallz and the more serious name
+                        DrawBots for public consumption. I wonder if it is because they (unintentionally)
+                        look quite handmade/as having a human touch potentially because they have been painted
+                        rather than have lights on or being clearly made from metal/plastic and are therefore
+                        less clearly identified as technology. There is a kind of aesthetic of technology or of
+                        the future which is quite bullshit to some extent, at least when it comes to physical objects.
+                        My robots were made with my hand, but it would have been very easy to make them look like
+                        technology. To make them shiny, or light up. And things that are screen based automatically
+                        have an appearance forced on them to some extent no matter what is being portrayed on the screen.
+                        It is limited to pixels ultimately.</p>
+
+                        <p>Working with them I found very interesting as they were supposed to be something
+                        that worked, rather than I worked with. However, I ended up playing with them and
+                        exploring them like I would any material. I called them by their (Photon) names. I saw
+                        different personalities in them, even though the personality was actually the
+                        characteristics of the specific motors or how many revolutions the motor had turned,
+                        for example. They actually became quite an unusual thing to work with as an artist
+                        because they were more interactive than my paper or my favourite pens. Rather than
+                        being an external system, as with any system of making art, the artist can never be
+                        erased. Ten years ago I took this fairly seriously and it was a highly productive and
+                        creative pursuit to try and get to the bottom of the eternal contradiction - the artist
+                        will always come up with the initial idea even if every other idea after that is out of
+                        their control. I treat it now as a constructive game and with these robots I actually
+                        more clearly saw that I am part of it rather than external to the system. If you could
+                        reduce making art down to a button, the artist would be in the button.</p>
+
+                        <div class="container-fluid">
+                        <div class="row" id="fontcolor">
+                        <div class="text-center">
+                        <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0617 2.JPG" alt="Robo" style="width:100%;max-width:200px;min-width:200px">
+                        <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+                      </div>
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0728.JPG" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+                      <div class='col-sm-3'>
+                      <img class="myImg" src="images/IMG_0755.jpg" alt="Innit" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_1142.jpg" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0488.JPG" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0547.JPG" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0587.JPG" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="col-sm-3">
+                      <img class="myImg" src="images/IMG_0751 2.jpg" alt="Ballz" style="width:100%;max-width:200px;min-width:200px">
+                      <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption">
+                      </div>
+                      </div>
+                      </div>
+
+                      </div>
+                      </div>
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="container">
+          <div class="row" id="fontcolor">
+            <div class="col-xl-12">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h4>DRAFT 15.10.18 Lisa Nakamura reading </h4>
+                      <p>Perhaps also some thoughts on directions for my work
+                        I have been considering the work I want to make this year further.
+                          I am going to start with the obvious one which is to develop the
+                          code that runs the DrawBots further so they start gaining more
+                          independence from me. Plus learning how to do state machines will
+                          be useful anyway.</p>
+
+                          <p>I am also interested in sound, drawing and machines which has
+                          led my thinking to vibrations rather than trying to make something
+                          musical. Looking at old machines for playing music and considering how
+                          a CD player or record player could be broken down and reconstructed
+                          differently led me down the route of inventions and failed inventions
+                          briefly. The idea of chains of vibrations, or taking vibrations
+                          from the wind over Arctic ice sheets, or taking my drawings,
+                          perhaps some of my highly intricate drawings and making sound from
+                          them could be interesting. Machinery for reading earthquakes is also
+                          something I have been looking at a little.</p>
+
+                          <p>Consider also the research I did into robots and the idea
+                          of the robot this week. I think it was for last week.</p>
+
+
+
+
+
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section class="container">
+  <div class="row" id="fontcolor">
+    <div class="col-xl-12">
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td>
+              <h4>DRAFT 22.10.18 Roboballz directions and Line Follower</h4>
+              <p>
+                This week I discussed possible areas of research
+                and continued work to develop the complexity of the roboballz.
+                I now have a functioning, basic state machine with a
+                button to turn off and on the Photon whilst remaining in a
+                constant reverse state.</p>
+
+                <p>I have also been going to a free class for women to learn
+                HTML etc which I quite like in some ways and learning
+                about the internet is slightly crazy. It would be good to
+                bring this into my work if I can. It is very weird
+                going into an accountancy firm’s offices to do it though -
+                I am a “girl” when I go in (it’s run by Girls First),
+                blending into a bunch of “girls”, not dressed like I used to
+                dress, not like the suits around me even though to me it’s so
+                familiar it’s comfortable (and yet not what I want).</p>
+
+                <p>
+                I am also still wanting to make my disruptive economics
+                website and sell art work for £1 or something.
+              </p>
+              <!-- I may be going to Hong Kong in December and maybe Beijing -
+              I almost have the same feeling about going there too.
+              It’s very strange going to a place I love and that has entirely
+              shaped me (which most people here don’t understand) yet
+              I’m no longer at home in and resist going back to.
+              Maybe because it makes me feel homesick in a way and also
+              not. At least in London I can be a cultural non-entity - the
+              international. It might be a chance to somehow combine
+              physically being in East Asia with my class and the MFA. -->
+
+              <div class="container-fluid">
+              <div class="row" id="fontcolor">
+              <div class="text-center">
+              <div class="col-sm-4">
+<img class="myImg" src="images/IMG_1698.JPG" alt="Robo" style="width:100%;max-width:200px;min-width:200px">
+              <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+          </div>
+<div class="col-sm-4">
+          <img class="myImg" src="images/IMG_1761 2.JPG" alt="DrawCommand 2" style="width:100%;max-width:200px;min-width:200px">
+          <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption">
+          </div>
+        </div>
+      </div>
+<div class='col-sm-4'>
+      <img class="myImg" src="images/IMG_1764 2.JPG" alt="DrawCommand 3" style="width:100%;max-width:200px;min-width:200px">
+      <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+  <div class="row" id="fontcolor">
+    <div class="text-center">
+      <div class="col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yu9g-f35m5Q" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xc_hdk-iuVg" allowfullscreen ></iframe>
+        </div>
+      </div>
+      <div class='col-sm-4'>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" class="center-block" src="https://www.youtube.com/embed/h0mzzYNDy4c" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            </td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          </div>
+          </section>
+
+          <section class="container">
+            <div class="row" id="fontcolor">
+              <div class="col-xl-12">
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <h4>29.10.18 Systems art - reflecting on my (old) fine art practice</h4>
+                        <p>Blurb</p>
+                        <div class="container-fluid">
+                        <div class="row" id="fontcolor">
+                        <div class="text-center">
+                        <div class="col-sm-4">
+    <img class="myImg" src="images/IMG_1817.JPG" alt="DrawCommand 1" style="width:100%;max-width:200px;min-width:200px">
+                        <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+                    </div>
+    <div class="col-sm-4">
+                    <img class="myImg" src="images/IMG_1761 2.JPG" alt="DrawCommand 2" style="width:100%;max-width:200px;min-width:200px">
+                    <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption">
+                    </div>
+                  </div>
+                </div>
+    <div class='col-sm-4'>
+                <img class="myImg" src="images/IMG_1764 2.JPG" alt="DrawCommand 3" style="width:100%;max-width:200px;min-width:200px">
+                <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+            </div>
+    </div>
+        </div>
+      </div>
+                      </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </section>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+<script>
+  var modal = document.getElementById("myModal");
+var i;
+
+var img = document.getElementsByClassName("myImg");
+var modalImg = document.getElementById("img01");
+
+ for(i=0;i< img.length;i++)
+   {
+    img[i].onclick = function(){
+
+    modal.style.display = "block";
+       modalImg.src = this.src;
+
+ }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() {
+   modal.style.display = "none";
+}
+</script>
+
+</body>
+
+</html>
